@@ -115,6 +115,7 @@ header:hover{
 body{
     background-image: url("roock.jpg");
     background-size:cover;
+    width:1200px;
 
 }
 .p1:hover,.p2:hover,.p3:hover,.p4:hover,.p5:hover,.p6:hover,.p7:hover,.p8:hover,.p9:hover{
