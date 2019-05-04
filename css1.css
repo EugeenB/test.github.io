@@ -1,0 +1,161 @@
+.p1:after{content:" <-Main page ";size: 25px;
+    background-color: lemonchiffon }
+.p2:after{content:" <-BFMV  .";size: 25px;
+        background-color: lemonchiffon }
+.p3:after{content:" <-Slip/SS  .";size: 25px;
+            background-color: lemonchiffon }
+.p4:after{content:" <-EC  .";size: 25px;
+                background-color: lemonchiffon}
+.p5:after{content:" <-3DG/SA/TFK  .";size: 25px;
+                    background-color: lemonchiffon }
+.p6:after{content:" <-Epica  .";size: 25px;
+                        background-color: lemonchiffon }
+.p7:after{content:" <-ATR/ADTR  .";size: 25px;
+                            background-color: lemonchiffon }
+.p8:after{content:" <-Russian  .";size: 25px;
+                                background-color: lemonchiffon }
+.p9:after{content:" <-Mini-game  .";size: 25px;
+                                    background-color: lemonchiffon}
+                                    #aee li a{
+                                        text-decoration: none;
+                                        color: green;
+                                    }
+                                    #aee li{
+                                        display: inline-block;
+                                        margin-right: 5px;
+                                        list-style: none;
+                                        position: relative;
+                                        
+                                        margin-left:0px;
+                                        text-align: center;
+                                        width:19%;
+                                    }
+                                    #aee{
+                                        background-color: red;
+                                        background-attachment: fixed;
+                                        padding: 0;
+                                        margin: 0;
+                                        font-family: Verdana;
+                                        border-style:ridge;
+                                        border-width:5px;
+                                        border-color:violet;
+                                        transition: 0.5s all;
+                                        height: 19px;
+                                        vertical-align: center; 
+                                        width:calc(100%-1);
+                                    }
+                                    #aee li ul li{
+                                        list-style: none;
+                                        position: absolute;
+                                        margin-left:100px;  
+                                        vertical-align: center; 
+                                        visibility: hidden;                               
+                                    }
+                                    #aee li ul li{
+                                        float: left;
+                                        text-align: left;
+                                        
+                                    }
+                                    #aee li:hover ul li{
+                                        visibility: visible;
+                                        opacity:1;
+                                        transition: .3s all;
+                                        position:relative;
+                                        font-family: Verdana;
+                                        border-style:ridge;
+                                        border-width:5px;
+                                        border-color:violet;
+                                        display:block;
+                                        width:250px;
+                                        background-color: red;
+                                        transform: translateX(-80px);
+                                       
+                                    }
+                                    #aee li ul li:hover{
+                                    background-color: aqua;}
+                                    
+                                   
+                                    
+.txt ol li{
+    list-style: none;
+    border-radius:10px;
+    border-width:30px;
+    border-style:ridge;
+    border-color:rgb(250, 50, 50);
+    width:350px;
+    vertical-align:top;
+}
+.txt ol li ul li{
+    list-style: none;
+    border-radius:10px;
+    border-width:3px;
+    border-style:solid;
+    border-color:rgb(38, 38, 136);
+    width:300px;
+}
+.txt ol li ul{
+    list-style: none;
+    border-radius:10px;
+}
+.txt ol li{
+    display:inline-block;
+}
+.txt ol li ul li{
+    background-color: aquamarine;
+color:rgb(255, 0, 0) 
+}
+header{
+    font-size: 3em;
+    color:blue;
+    width:220px;
+}
+header:hover{
+    background-color: aqua;
+}
+body{
+    background-image: url("roock.jpg");
+
+}
+.p1:hover,.p2:hover,.p3:hover,.p4:hover,.p5:hover,.p6:hover,.p7:hover,.p8:hover,.p9:hover{
+size:55px;
+background-color: aqua;
+transition: 1s all;
+}
+                                body{
+                                    background-size:100%;
+                                    background-position:fixed;
+                                }
+                                h1,h3{
+                                    background-color: beige;
+                                    width:400px;
+                                }
+                                footer div{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  text-align: center;
+  color:red;
+  background-color: blue;
+}
+#x{
+    width:300px;
+}
+.txt{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:1.5em;
+    color:white;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    color:blue;
+    font-size:1.5em;
+    text-align:center;
+    width:calc(100%-1px);
+}
+.txt ol:hover{
+size:1.1em;
+transition:1s all;
+}
