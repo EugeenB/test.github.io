@@ -1,21 +1,4 @@
-.p1:after{content:" <-Main page ";size: 25px;
-    background-color: lemonchiffon }
-.p2:after{content:" <-BFMV  .";size: 25px;
-        background-color: lemonchiffon }
-.p3:after{content:" <-Slip/SS  .";size: 25px;
-            background-color: lemonchiffon }
-.p4:after{content:" <-EC  .";size: 25px;
-                background-color: lemonchiffon}
-.p5:after{content:" <-3DG/SA/TFK  .";size: 25px;
-                    background-color: lemonchiffon }
-.p6:after{content:" <-Epica  .";size: 25px;
-                        background-color: lemonchiffon }
-.p7:after{content:" <-ATR/ADTR  .";size: 25px;
-                            background-color: lemonchiffon }
-.p8:after{content:" <-Russian  .";size: 25px;
-                                background-color: lemonchiffon }
-.p9:after{content:" <-Mini-game  .";size: 25px;
-                                    background-color: lemonchiffon}
+
                                     #aee li a{
                                         text-decoration: none;
                                         color: green;
