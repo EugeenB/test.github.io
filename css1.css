@@ -5,7 +5,7 @@
 .p3:after{content:" <-Slip/SS  .";size: 25px;
             background-color: lemonchiffon }
 .p4:after{content:" <-EC  .";size: 25px;
-                background-color: red}
+                background-color: lemonchiffon}
 .p5:after{content:" <-3DG/SA/TFK  .";size: 25px;
                     background-color: lemonchiffon }
 .p6:after{content:" <-Epica  .";size: 25px;
@@ -115,7 +115,7 @@ header:hover{
 body{
     background-image: url("roock.jpg");
     background-size:cover;
-    width:1200px;
+    width:1500px;
 
 }
 .p1:hover,.p2:hover,.p3:hover,.p4:hover,.p5:hover,.p6:hover,.p7:hover,.p8:hover,.p9:hover{
