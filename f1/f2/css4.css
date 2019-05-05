@@ -124,7 +124,7 @@ footer {
   text-align: center;
   color:red;
   background-color: blue;
-height:4%;
+height:50px;
 position: absolute;
   bottom: 0;
   height: 2.5rem;}
@@ -151,4 +151,5 @@ background-color:grey;
                                     background-image: url("p4bg.png");
                                     background-size:100%;
                                     background-position:fixed;
+                                    width:1300px;
                                 }
