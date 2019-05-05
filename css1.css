@@ -101,9 +101,7 @@ header:hover{
     background-color: aqua;
 }
 body{
-    background-image: url("rock.jpg");
-    background-size:100%;
-width:1500px;
+ 
 }
 .p1:hover,.p2:hover,.p3:hover,.p4:hover,.p5:hover,.p6:hover,.p7:hover,.p8:hover,.p9:hover{
 size:55px;
@@ -113,6 +111,9 @@ transition: 1s all;
                                 body{
                                     background-size:100%;
                                     background-position:fixed;
+                                     background-image: url("rock.jpg");
+    background-size:100%;
+width:1300px;
                                 }
                                 h1,h3{
                                     background-color: beige;
@@ -146,7 +147,7 @@ footer{
     color:blue;
     font-size:1.5em;
     text-align:center;
-    width:calc(100%-1px);
+    width:1300px;
 background-color:grey;
 }
 .txt ol:hover{
