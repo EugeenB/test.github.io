@@ -32,7 +32,8 @@
                                         position: absolute;
                                         margin-left:100px;  
                                         vertical-align: center; 
-                                        visibility: hidden;                               
+                                        visibility: hidden; 
+                                      align:center;
                                     }
                                     #aee li ul li{
                                         float: left;
@@ -55,7 +56,8 @@
                                        
                                     }
                                     #aee li ul li:hover{
-                                    background-color: aqua;}
+                                    background-color: aqua;
+                                    transition:.5s all;}
                                     
                                    
                                     
