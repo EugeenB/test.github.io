@@ -98,6 +98,7 @@ width:34%;
    border-color:red;
   margin-left:33%;
    margin-right:33%;
+   border-radius:10px;
 }
 header{
     font-size: 3em;
