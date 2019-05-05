@@ -151,6 +151,7 @@ background-color:grey;
                                     background-image: url("p3bg.png");
                                     background-size:100%;
                                     background-position:fixed;
+                                    width:1300px;
                                 }
                                 h1,h3{
                                     background-color: beige;
