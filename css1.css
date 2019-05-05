@@ -88,7 +88,8 @@
 color:rgb(255, 0, 0) 
 }
 .txt,.txt ol li,div{
-color:black}
+color:black;
+background-color:brown;}
 header{
     font-size: 3em;
     color:blue;
