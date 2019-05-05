@@ -87,7 +87,7 @@
     background-color: aquamarine;
 color:rgb(255, 0, 0) 
 }
-div{
+#be{
 color:black;
 background-color:brown;}
 header{
@@ -141,6 +141,7 @@ footer{
     font-size:1.5em;
     text-align:center;
     width:calc(100%-1px);
+background-color:grey;
 }
 .txt ol:hover{
 size:1.1em;
