@@ -93,7 +93,7 @@ background-color:brown;}
 header{
     font-size: 3em;
     color:blue;
-    width:220px;
+    width:500px;
 }
 header:hover{
     background-color: aqua;
@@ -116,7 +116,7 @@ transition: 1s all;
                                     background-color: beige;
                                     width:400px;
                                 }
-                                footer div{
+                                footer {
   position: absolute;
   bottom: 0;
   width: 100%;
