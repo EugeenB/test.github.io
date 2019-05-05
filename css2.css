@@ -141,7 +141,9 @@ position: absolute;
     margin-top:20px;
     margin-bottom:20px;
     font-size:1.5em;
-  
+  backround-color:beige;
+   border-left-width:25px;
+   border-left-color:red;
 }
 footer{
     position:absolute;
