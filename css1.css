@@ -88,8 +88,10 @@
 color:rgb(255, 0, 0) 
 }
 #be{
-color:black;
-background-color:brown;}
+color:white;
+background-color:brown;
+font-size:1.7em;
+}
 header{
     font-size: 3em;
     color:blue;
