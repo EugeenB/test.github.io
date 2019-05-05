@@ -1,4 +1,5 @@
-   #aee li a{
+ 
+                                    #aee li a{
                                         text-decoration: none;
                                         color: black;
                                     }
@@ -107,7 +108,9 @@ body{
 .p1:hover,.p2:hover,.p3:hover,.p4:hover,.p5:hover,.p6:hover,.p7:hover,.p8:hover,.p9:hover{
 size:55px;
 background-color: aqua;
-    transition: 1s all;    }
+transition: 1s all;
+}
+                                }
                                 h1,h3{
                                     background-color: beige;
                                     width:400px;
@@ -117,15 +120,33 @@ background-color: aqua;
 }
 footer {
   width: 100%;
-  height: 1.5rem;
+  height: 2.5rem;
   text-align: center;
-  color:blue;
-  background-color: grey;
-height:2%;
+  color:red;
+  background-color: blue;
+height:4%;
 position: absolute;
   bottom: 0;
   height: 2.5rem;}
-
+.txt{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:1.5em;
+  background-color:beige;
+   border-left-width:25px;
+   border-left-color:red;
+   text-align:center;
+}
+footer{
+    position:absolute;
+    bottom:0;
+    color:blue;
+    font-size:1.5em;
+    text-align:center;
+    width:1300px;
+   height:2%;
+background-color:grey;
+}
                                 body{
                                     background-image: url("p3bg.png");
                                     background-size:100%;
@@ -135,12 +156,3 @@ position: absolute;
                                     background-color: beige;
                                     width:400px;
                                 }
-
-.txt{
-    margin-top:20px;
-    margin-bottom:20px;
-    font-size:1.5em;
-    background-color: beige;
-    border-left-width:25px;
-    border-left-color:red;
-}
