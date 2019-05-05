@@ -118,16 +118,6 @@ transition: 1s all;
 #all{position: relative;
   min-height: 100vh;
 }
-footer {
-  width: 100%;
-  height: 2.5rem;
-  text-align: center;
-  color:red;
-  background-color: blue;
-height:50px;
-position: relative;
-  bottom: 0;
-  height: 2.5rem;}
 .txt{
     margin-top:20px;
     margin-bottom:20px;
@@ -138,7 +128,7 @@ position: relative;
    text-align:center;
 }
 footer{
-    position:absolute;
+    position:relative;
     bottom:0;
     color:blue;
     font-size:1.5em;
