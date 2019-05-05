@@ -130,13 +130,10 @@ footer {
   text-align: center;
   color:red;
   background-color: blue;
-height:2%;
+height:4%;
 position: absolute;
   bottom: 0;
   height: 2.5rem;}
-#x{
-    width:300px;
-}
 .txt{
     margin-top:20px;
     margin-bottom:20px;
@@ -144,6 +141,7 @@ position: absolute;
   background-color:beige;
    border-left-width:25px;
    border-left-color:red;
+   text-align:center;
 }
 footer{
     position:absolute;
