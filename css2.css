@@ -35,11 +35,7 @@
                                         visibility: hidden; 
                                       text-align:center;
                                     }
-                                    #aee li ul li{
-                                        float: left;
-                                        text-align: left;
-                                        
-                                    }
+                                   
                                     #aee li:hover ul li{
                                         visibility: visible;
                                         opacity:1;
@@ -53,6 +49,7 @@
                                         width:250px;
                                         background-color: red;
                                         transform: translateX(-80px);
+                                       text-align:center;
                                        
                                     }
                                     #aee li ul li:hover{
@@ -95,11 +92,12 @@ background-color:brown;
 font-size:1.7em;
 }
 .song{
-width:600px;
+width:34%;
    border-style:solid;
    border-width:10px;
    border-color:red;
-   float:center;
+  margin-left:33%;
+   margin-right:33%;
 }
 header{
     font-size: 3em;
