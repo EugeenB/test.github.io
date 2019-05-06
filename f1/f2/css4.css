@@ -102,8 +102,15 @@ header{
 header:hover{
     background-color: aqua;
 }
-body{
- 
+.song{
+width:34%;
+margin-right:33%;
+margin-left:34%;
+border-style:solid;
+border-color:red;
+border-width:10px;
+border-radius:10px;
+
 }
 .p1:hover,.p2:hover,.p3:hover,.p4:hover,.p5:hover,.p6:hover,.p7:hover,.p8:hover,.p9:hover{
 size:55px;
