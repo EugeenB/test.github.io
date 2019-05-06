@@ -1,4 +1,4 @@
-.#aee li a{
+                                    #aee li a{
                                         text-decoration: none;
                                         color: black;
                                     }
@@ -157,6 +157,7 @@ background-color:grey;
                                     background-image: url("p5bg.png");
                                     background-size:100%;
                                     background-position:fixed;
+width:100%;
                                 }
                                 h1,h3{
                                     background-color: beige;
