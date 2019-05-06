@@ -57,7 +57,8 @@
                                     }
                                     #aee li ul li:hover{
                                     background-color: aqua;
-                                    transition:.5s all;}
+                                    transition:.5s all; 
+                                    text-align:center;}
                                     
                                    
                                     
