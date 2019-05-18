@@ -89,7 +89,8 @@ font-size:1.1em;}
 }
 .txt ol li ul li{
     background-color: aquamarine;
-color:rgb(255, 0, 0) 
+color:rgb(255, 0, 0);
+  height:30px;
 }
 #be{
 color:white;
