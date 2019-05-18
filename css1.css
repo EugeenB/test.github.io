@@ -70,7 +70,7 @@
     width:350px;
     vertical-align:top;
 }
-.txt ol li ul li{
+.txt ol li ul li,.txt ol li ul li a{
     list-style: none;
     border-radius:10px;
     border-width:3px;
@@ -101,9 +101,6 @@ header{
 }
 header:hover{
     background-color: aqua;
-}
-body{
- 
 }
 .p1:hover,.p2:hover,.p3:hover,.p4:hover,.p5:hover,.p6:hover,.p7:hover,.p8:hover,.p9:hover{
 size:55px;
