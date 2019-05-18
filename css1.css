@@ -70,7 +70,7 @@
     width:350px;
     vertical-align:top;
 }
-.txt ol li ul li,.txt ol li ul li a{
+.txt ol li ul li{
     list-style: none;
     border-radius:10px;
     border-width:3px;
@@ -78,6 +78,8 @@
     border-color:rgb(38, 38, 136);
     width:300px;
 }
+.txt ol li ul li a{
+font-size:1.1em;}
 .txt ol li ul{
     list-style: none;
     border-radius:10px;
