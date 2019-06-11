@@ -33,12 +33,8 @@
                                         margin-left:100px;  
                                         vertical-align: center; 
                                         visibility: hidden; 
-                                      align:center;
-                                    }
-                                    #aee li ul li{
-                                        float: left;
-                                        text-align: left;
-                                        
+                                        float:center;
+                                        text-align:center;
                                     }
                                     #aee li:hover ul li{
                                         visibility: visible;
