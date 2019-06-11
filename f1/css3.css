@@ -126,6 +126,13 @@ transition: 1s all;
                                 }
 #all{position: relative;
   min-height: 100vh;
+}h1,h3{
+                                   background-color: beige;
+                                   width:100%;
+                                   text-align:center;
+                                     }
+#all{position: relative;
+  min-height: 100vh;
 }
 .txt{
     margin-top:20px;
