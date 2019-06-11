@@ -117,24 +117,25 @@ size:55px;
 background-color: aqua;
 transition: 1s all;
 }
-                                }
                                 h1,h3{
-                                    background-color: beige;
-                                    width:400px;
-                                }
-#all{position: relative;
+                                   background-color: beige;
+                                   width:100%;
+                                   text-align:center;
+                                     }
+#all{
+ position: relative;
   min-height: 100vh;
 }
-footer {
-  width: 100%;
-  height: 2.5rem;
-  text-align: center;
-  color:red;
-  background-color: blue;
-height:50px;
-position: absolute;
-  bottom: 0;
-  height: 2.5rem;}
+footer{
+    position:relative;
+    bottom:0;
+    color:blue;
+    font-size:1.5em;
+    text-align:center;
+    width:1300px;
+   height:50px;
+background-color:grey;
+}
 .txt{
     margin-top:20px;
     margin-bottom:20px;
