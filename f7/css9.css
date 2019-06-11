@@ -1,31 +1,14 @@
-.p1:after{content:" <-Main page ";size: 25px;
-    background-color: lemonchiffon }
-.p2:after{content:" <-BFMV  .";size: 25px;
-        background-color: lemonchiffon }
-.p3:after{content:" <-Slip/SS  .";size: 25px;
-            background-color: lemonchiffon }
-.p4:after{content:" <-EC  .";size: 25px;
-                background-color: lemonchiffon}
-.p5:after{content:" <-3DG/SA/TFK  .";size: 25px;
-                    background-color: lemonchiffon }
-.p6:after{content:" <-Epica  .";size: 25px;
-                        background-color: lemonchiffon }
-.p7:after{content:" <-ATR/ADTR  .";size: 25px;
-                            background-color: lemonchiffon }
-.p8:after{content:" <-Russian  .";size: 25px;
-                                background-color: lemonchiffon }
-.p9:after{content:" <-Mini-game  .";size: 25px;
-                                    background-color: lemonchiffon}
+    
                                     #aee li a{
                                         text-decoration: none;
-                                        color: green;
+                                        color: black;
                                     }
                                     #aee li{
                                         display: inline-block;
                                         margin-right: 5px;
                                         list-style: none;
                                         position: relative;
-                                        
+                                        vertical-align:top;
                                         margin-left:0px;
                                         text-align: center;
                                         width:19%;
@@ -49,13 +32,10 @@
                                         position: absolute;
                                         margin-left:100px;  
                                         vertical-align: center; 
-                                        visibility: hidden;                               
+                                        visibility: hidden; 
+                                      text-align:center;
                                     }
-                                    #aee li ul li{
-                                        float: left;
-                                        text-align: left;
-                                        
-                                    }
+                                   
                                     #aee li:hover ul li{
                                         visibility: visible;
                                         opacity:1;
@@ -69,55 +49,110 @@
                                         width:250px;
                                         background-color: red;
                                         transform: translateX(-80px);
+                                       text-align:center;
                                        
                                     }
                                     #aee li ul li:hover{
-                                    background-color: aqua;}
-.p1:hover{
+                                    background-color: aqua;
+                                    transition:.5s all;}
+                                    
+                                   
+                                    
+.txt ol li{
+    list-style: none;
+    border-radius:10px;
+    border-width:30px;
+    border-style:ridge;
+    border-color:rgb(250, 50, 50);
+    width:350px;
+    vertical-align:top;
+}
+.txt ol li ul li{
+    list-style: none;
+    border-radius:10px;
+    border-width:3px;
+    border-style:solid;
+    border-color:rgb(38, 38, 136);
+    width:300px;
+}
+.txt ol li ul{
+    list-style: none;
+    border-radius:10px;
+}
+.txt ol li{
+    display:inline-block;
+}
+.txt ol li ul li{
+    background-color: aquamarine;
+color:rgb(255, 0, 0) 
+}
+#be{
+color:white;
+background-color:brown;
+font-size:1.7em;
+}
+.song{
+width:34%;
+   border-style:solid;
+   border-width:10px;
+   border-color:red;
+  margin-left:33%;
+   margin-right:33%;
+   border-radius:10px;
+}
+header{
+    font-size: 3em;
+    color:blue;
+    width:500px;
+}
+header:hover{
+    background-color: aqua;
+}
+.p1:hover,.p2:hover,.p3:hover,.p4:hover,.p5:hover,.p6:hover,.p7:hover,.p8:hover,.p9:hover{
 size:55px;
 background-color: aqua;
+transition: 1s all;
 }
-.p2:hover{
-    size:55px;
-    background-color: aqua;
-    }
-    .p3:hover{
-        size:55px;
-        background-color: aqua;
-        }
-        .p4:hover{
-            size:55px;
-            background-color: aqua;
-            }
-            .p5:hover{
-                size:55px;
-                background-color: aqua;
-                }
-                .p6:hover{
-                    size:55px;
-                    background-color: aqua;
-                    }
-                    .p7:hover{
-                        size:55px;
-                        background-color: aqua;
-                        }
-                        .p8:hover{
-                            size:55px;
-                            background-color: aqua;
-                            }
-                            .p9:hover{
-                                size:55px;
-                                background-color: aqua;
-                                }
+
+
+h1,h3{
+                                   background-color: beige;
+                                   width:100%;
+                                   text-align:center;
+                                     }
+#all{position: relative;
+  min-height: 100vh;
+}
+footer{
+    position:relative;
+    bottom:0;
+    color:blue;
+    font-size:1.5em;
+    text-align:center;
+    width:1300px;
+   height:50px;
+background-color:grey;
+}
+.txt{
+    margin-top:20px;
+    margin-bottom:20px;
+    font-size:1.5em;
+  background-color:beige;
+   border-left-width:25px;
+   border-left-color:red;
+   text-align:center;
+}
+.txt ol:hover{
+size:1.1em;
+transition:1s all;
+}
+
                                 body{
                                     background-image: url("arch.jpg");
                                     background-size:100%;
                                     background-position:fixed;
                                 }
-                                h1,h3{
-                                    background-color: beige;
-                                    width:400px;
-                                }
+                               
                                 canvas {
                                     border: 1px solid white;
                                   }
@@ -127,20 +162,6 @@ background-color: aqua;
                                     align-items: center;
                                     justify-content: center;
                                   }
-#y{
-    margin-top:10px;
-width:400px;
-}
-.txt{
-    margin-top:20px;
-    margin-bottom:20px;
-    font-size:1.5em;
-    background-color: blanchedalmond;
-    border-left-style:solid;
-    border-left-width:25px;
-    border-left-color:red;
-
-}
 .q{
     width:25px;
     height: 25px;
@@ -165,11 +186,6 @@ width:400px;
     height:30px;
     background-color: black;
 }
-footer{
-    position:absolute;
-    bottom:0;
-    color:blue;
-    font-size:1.5em;
     text-align:center;
     width:calc(100%-1px);
 }
