@@ -121,12 +121,12 @@ transition: 1s all;
 width:1400px;
                                 }
                                 h1,h3{
-                                    background-color: beige;
-                                    width:400px;
-                                }
+                                   background-color: beige;
+                                   width:100%;
+                                   text-align:center;
+                                     }
 #all{position: relative;
   min-height: 100vh;
-   
 }
 footer{
     position:relative;
