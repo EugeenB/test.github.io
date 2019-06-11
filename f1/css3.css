@@ -119,14 +119,11 @@ size:55px;
 background-color: aqua;
 transition: 1s all;
 }
-                                }
-                                h1,h3{
-                                    background-color: beige;
-                                    width:400px;
-                                }
-#all{position: relative;
+#all{
+ position: relative;
   min-height: 100vh;
-}h1,h3{
+}
+                                   h1,h3{
                                    background-color: beige;
                                    width:100%;
                                    text-align:center;
@@ -159,7 +156,4 @@ background-color:grey;
                                     background-position:fixed;
                                     width:1300px;
                                 }
-                                h1,h3{
-                                    background-color: beige;
-                                    width:400px;
-                                }
+                      
