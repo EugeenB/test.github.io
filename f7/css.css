@@ -58,3 +58,6 @@ body{
 .tags{
     vertical-align: bottom;
 }
+strong:hover{
+cursor: pointer;
+}
